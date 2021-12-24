@@ -266,75 +266,75 @@ Results on 9-round:
 
 ```
 [+] Proc 0
-[+] PRNG initialized to 0xD19EEA06
+[+] PRNG initialized to 0xD1B60786
 
- Quaries on each process = 2^(16.000000)
- 0 proc:     Right = 2^(13.506308)
- 1 proc:     Right = 2^(13.512123)
- 2 proc:     Right = 2^(13.535883)
- 3 proc:     Right = 2^(13.534303)
- 4 proc:     Right = 2^(13.511629)
- 5 proc:     Right = 2^(13.535761)
- 6 proc:     Right = 2^(13.505067)
- 7 proc:     Right = 2^(13.521478)
+ Quaries on each process = 2^(28.000000)
+ 0 proc:     Right = 2^(-inf)
+ 1 proc:     Right = 2^(1.000000)
+ 2 proc:     Right = 2^(1.000000)
+ 3 proc:     Right = 2^(-inf)
+ 4 proc:     Right = 2^(1.000000)
+ 5 proc:     Right = 2^(0.000000)
+ 6 proc:     Right = 2^(1.000000)
+ 7 proc:     Right = 2^(-inf)
 
-                              Total queries = 2^(19.000000)
-CRAFT:     Number of total right quadruples = 2^(16.520373)
-           Probability of right quadruples  = 2^(-2.4796)
- time on clock(): 0.103
+                              Total queries = 2^(31.000000)
+CRAFT:     Number of total right quadruples = 2^(3.169925)
+           Probability of right quadruples  = 2^(-27.8301)
+ time on clock(): 483.431
 
-[+] Time : 0.101380
-[+] CRAFT:         Number of right quadruples = 2^(13.506308)
-[+]           Probability of right quadruples = 2^(-2.4937)
+[+] Time : 482.615769
+[+] CRAFT:         Number of right quadruples = 2^(-inf)
+[+]           Probability of right quadruples = 2^(-inf)
 
 
 [+] Proc 1
-[+] PRNG initialized to 0xD19EEA07
-[+] Time : 0.102427
-[+] CRAFT:         Number of right quadruples = 2^(13.512123)
-[+]           Probability of right quadruples = 2^(-2.4879)
-
-
-[+] Proc 6
-[+] PRNG initialized to 0xD19EEA0C
-[+] Time : 0.098035
-[+] CRAFT:         Number of right quadruples = 2^(13.505067)
-[+]           Probability of right quadruples = 2^(-2.4949)
-
-
-[+] Proc 7
-[+] PRNG initialized to 0xD19EEA0D
-[+] Time : 0.100957
-[+] CRAFT:         Number of right quadruples = 2^(13.521478)
-[+]           Probability of right quadruples = 2^(-2.4785)
-
-
-[+] Proc 5
-[+] PRNG initialized to 0xD19EEA0B
-[+] Time : 0.098529
-[+] CRAFT:         Number of right quadruples = 2^(13.535761)
-[+]           Probability of right quadruples = 2^(-2.4642)
-
-
-[+] Proc 2
-[+] PRNG initialized to 0xD19EEA08
-[+] Time : 0.097905
-[+] CRAFT:         Number of right quadruples = 2^(13.535883)
-[+]           Probability of right quadruples = 2^(-2.4641)
+[+] PRNG initialized to 0xD1B60787
+[+] Time : 480.954765
+[+] CRAFT:         Number of right quadruples = 2^(1.000000)
+[+]           Probability of right quadruples = 2^(-27.0000)
 
 
 [+] Proc 3
-[+] PRNG initialized to 0xD19EEA09
-[+] Time : 0.099072
-[+] CRAFT:         Number of right quadruples = 2^(13.534303)
-[+]           Probability of right quadruples = 2^(-2.4657)
+[+] PRNG initialized to 0xD1B60789
+[+] Time : 482.016472
+[+] CRAFT:         Number of right quadruples = 2^(-inf)
+[+]           Probability of right quadruples = 2^(-inf)
+
+
+[+] Proc 6
+[+] PRNG initialized to 0xD1B6078C
+[+] Time : 483.429180
+[+] CRAFT:         Number of right quadruples = 2^(1.000000)
+[+]           Probability of right quadruples = 2^(-27.0000)
+
+
+[+] Proc 7
+[+] PRNG initialized to 0xD1B6078D
+[+] Time : 481.949031
+[+] CRAFT:         Number of right quadruples = 2^(-inf)
+[+]           Probability of right quadruples = 2^(-inf)
+
+
+[+] Proc 2
+[+] PRNG initialized to 0xD1B60788
+[+] Time : 480.121228
+[+] CRAFT:         Number of right quadruples = 2^(1.000000)
+[+]           Probability of right quadruples = 2^(-27.0000)
+
+
+[+] Proc 5
+[+] PRNG initialized to 0xD1B6078B
+[+] Time : 481.509744
+[+] CRAFT:         Number of right quadruples = 2^(0.000000)
+[+]           Probability of right quadruples = 2^(-28.0000)
 
 
 [+] Proc 4
-[+] PRNG initialized to 0xD19EEA0A
-[+] Time : 0.100430
-[+] CRAFT:         Number of right quadruples = 2^(13.511629)
-[+]           Probability of right quadruples = 2^(-2.4884)
+[+] PRNG initialized to 0xD1B6078A
+[+] Time : 483.342382
+[+] CRAFT:         Number of right quadruples = 2^(1.000000)
+[+]           Probability of right quadruples = 2^(-27.0000)
 ```
 
 Results on 10-round:
