@@ -4,7 +4,7 @@
  * Author: Kexin Qiao
  * Contact: qiao.kexin@bit.edu.cn
 */
-// CRAFT Cipher 
+// LBlock Cipher 
 //#define SDL_MAIN_HANDLED
 #define __USE_MINGW_ANSI_STDIO 1  // to avoid %ll issue. special request for windows
 #include <stdio.h>
