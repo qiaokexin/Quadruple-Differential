@@ -1,4 +1,4 @@
-This repository contains supplementary material of the paper 
+This repository contains supplementary materials of the paper 
 # Quadruple Differential Distinguishers and MILP-based Automatic Searching Methods. 
 
 
