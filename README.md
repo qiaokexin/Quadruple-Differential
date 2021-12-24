@@ -20,6 +20,8 @@ The structure of the folder is as follows
 	- [CRAFT](#CRAFT)
 	- [LBlock](#LBlock)
 		
+"Supplementary point sets" includes three feasible point sets that are not specified in the paper due to page limit.
+
 All the experiments are executed on a laptop with 8 logic processors, 11th Gen Intel(R) Core(TM) i7-1160G7 @ 1.20GHz 2.11 GHz, 16G RAM.    
 	 
 
