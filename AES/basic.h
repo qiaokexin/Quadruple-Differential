@@ -15,7 +15,7 @@
 #include "gurobi_c++.h"
 using namespace std;
 const int MAX = 200000;
-const int threads = 64;
+const int threads = 8;
 
 const int eij_15feasible_pattern_tmplt[11][7]={0, 0, 0, 1, -1, 1, 0,\
 1, 1, 0, -1, 0, 0, 0,\
