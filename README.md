@@ -1,36 +1,36 @@
 This repository contains supplementary materials of the paper 
-# Quadruple Differential Distinguishers and MILP-based Automatic Searching Methods. 
+# The Exchange Attack and the Mixture Differential Attack Revisited: From the Perspective of Automatic Evaluation. 
 
 
 
 The structure of the folder is as follows
 - [AES](#AES)
-	- [2r](#2r)
-		- [lp](#lp)
-		- [sol](#sol)
-	- [3r](#3r)
-		- [lp](#lp)
-		- [sol](#sol)
-	- [4r](#4r)
-		- [lp](#lp)
-		- [sol](#sol)
-	- [5r](#5r)
-		- [lp](#lp)
-		- [sol](#sol)
-	- [CRAFT](#CRAFT)
-	- [LBlock](#LBlock)
-		
-"Supplementary feasible point sets.md" includes three feasible point sets that are not specified in the paper due to page limit.
+- [CRAFT](#CRAFT)
+- [LBlock](#LBlock)
+
 
 All the experiments are executed on a laptop with 8 logic processors, 11th Gen Intel(R) Core(TM) i7-1160G7 @ 1.20GHz 2.11 GHz, 16G RAM.    
 	 
 
-[AES] folder contains results corresponding to `Table XI` in the paper. [2r] folder contains MILP instances in [lp] and corresponding solution files in [sol] with r=2. In [lp], `AES_2r_collide1_case0.lp` corresponds to the instance with r=2, with 0-th (|K|,|I|,|J|) case and outputs collides on one column. In [sol], `AES_2r_collide1_case0_0.sol` represents the 0-th solution file. For r=3 and r=4, the rule goes the same. For r=3 and colliding on 3 columns cases, as there are too many solution files we only give the output of the programm `runGurobi.py` where we collect and do some statistics on the top 700 optimal solutions. To reproduce the results, Gurobi optimizer and python interface need to be installed. Then run
+[AES] folder contains the codes for generating the results in Tab. 5. In the current codes, the input pattern (|H_{_}|,|H_x|,|H_s|) is set to class (2,1,0). Preinstallion is Gurobi9.1. 
 
-```sh
-python runGurobi.py
+To get the 4 round results, run
+
 ```
-Change lp file directories and settings in `runGurobi.py` to test other instances.
+make 2round_optimal_enum
+```
+
+To get the 5 round results, run
+
+```
+make 3round_optimal_enum
+```
+
+To get the 4 round results, run
+
+```
+make 4round_optimal_enum
+```
 
 [CRAFT] folder contains the verification codes to verify the quadruple distinguishers we found. To run the programm, MPI package need to be installed and change the library path and include path in Makefile according to your installation. Run `mingw32-make` (in Windows) to compile the C++ codes. 
 
