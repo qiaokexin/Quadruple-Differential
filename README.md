@@ -11,8 +11,9 @@ The structure of the folder is as follows
 
 All the experiments are executed on a laptop with 8 logic processors, 11th Gen Intel(R) Core(TM) i7-1160G7 @ 1.20GHz 2.11 GHz, 16G RAM.    
 	 
+[Gurobi]: https://www.gurobi.com/
 
-[AES] folder contains the codes for generating the results in Tab. 5. In the current codes, the input pattern (|H_{_}|,|H_x|,|H_s|) is set to class (2,1,0). Preinstallion is Gurobi9.1. 
+[AES] folder contains the codes for generating the results in Tab. 5. In the current codes, the input pattern (|H_{_}|,|H_x|,|H_s|) is set to class (2,1,0). Preinstallion is [Gurobi]. This work is done by version 9.1. 
 
 To get the 4 round results, run
 
